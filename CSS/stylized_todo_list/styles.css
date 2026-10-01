@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  background: rgb(113, 84, 102);
+}
+
+.todo-list-container {
+  margin: 100px auto;
+  padding: 25px;
+  width: 500px;
+  background: white;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.todo-list > li {
+  background: rgb(255, 240, 249);
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+li > ul {
+  margin-top: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: rgb(150, 78, 123);
+}
+
+a:hover {
+  color: rgb(215, 139, 189);
+}
+
+a:active {
+  color: purple;
+}
+
+a:visited {
+  color: grey;
+}
+
+a:focus {
+  outline: 1px solid red;
+}
